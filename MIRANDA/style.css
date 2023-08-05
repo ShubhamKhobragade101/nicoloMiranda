@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+      height: 100%;
+      width: 100%;
+}
+
+#page1 {
+       height: 100vh;
+       width: 100vw;
+       background-color: #C4BCB3;
+       position: relative;
+       overflow-x: hidden;
+}
+
+#nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 2px solid #6a6868c6;
+}
+
+#nav img {
+    height: 15.8px;
+    width: 40%;
+}
+
+#nav h5 {
+        font-size: 20px;
+        font-weight: 100;
+        width: 40%;
+}
+
+#nav i {
+    width: 40%;
+    text-align: right;
+}
+
+#elements {
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+
+#element1 {
+    width: 30%;
+    height: 100%;
+    
+}
+
+#element2 {
+    width: 30%;
+    height: 115%;
+    border-left: 2px solid #595959;
+    border-right: 2px solid #595959;
+    padding: 20px  60px;
+    text-align: center;
+}
+
+#element3 {
+    width: 30%;
+    height: 100%;
+    
+}
+
+#element1 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+#element3 #image-div {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#image-div:hover img{
+    scale: 1.1;
+}
+
+#element1 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#element1 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight:100 ;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#element1 p {
+    font-size: 17px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 100;
+    color: #1b1b19;
+    
+}
+
+#element3 h4 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#element3 h4 span {
+    background-color: #B43B12;
+    color: #C4BCB3;
+    font-weight:100 ;
+    font-size: 18px;
+    padding: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#element3 p {
+    font-size: 17px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 100;
+    color: #1b1b19;
+    
+}
+
+#element2 h2 {
+    font-size: 55px;
+    font-family: canopee;
+    font-weight: 400;
+}
+
+#element2 h3 {
+    font-size: 35px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    /*background-color: red;*/
+}
+
+#element2 h5 {
+    font-size: 20px;
+    font-family: Domaine Disp Cond Medium;
+    font-weight: 300;
+}
+
+#page1 h1 {
+    font-size: 550px;
+    font-weight: 100;
+    letter-spacing: -20px;
+    font-family: canopee;
+    background-color: #1c1c19;
+    color: #C4BCB3;
+    line-height: 500px;
+    width: 96%;
+    margin-left: 2%;
+    
+
+}
